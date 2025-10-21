@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vector-syntax.com: Secure LLM Workflow Architecture</title>
+    <style>
+        /* TRON-LIKE AESTHETIC STYLES */
+        :root {
+            --color-tron-green: #00FF80; /* High-Vis Green */
+            --color-tron-yellow: #FFFF00; /* Caution Yellow */
+            --color-tron-red: #FF3333; /* Danger Red */
+            --color-bg-dark: #000010;
+            --color-text-light: #F0F8FF;
+        }
+
+        body {
+            background-color: var(--color-bg-dark);
+            color: var(--color-text-light);
+            font-family: 'Consolas', 'Courier New', monospace;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            margin: auto;
+        }
+
+        h1 {
+            color: var(--color-tron-green);
+            text-shadow: 0 0 10px var(--color-tron-green);
+            margin-bottom: 50px;
+        }
+
+        .status-container {
+            margin: 40px 0;
+            padding: 20px;
+            border: 2px solid var(--color-tron-green);
+            box-shadow: 0 0 15px var(--color-tron-green);
+            background: rgba(0, 255, 128, 0.05); /* Light green tint */
+        }
+
+        .trust-level {
+            font-size: 1.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        .status-dot {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 10px;
+            animation: pulse-green 1.5s infinite alternate;
+        }
+
+        /* Current Status: GREEN (Good/Safe) */
+        .status-dot.green {
+            background-color: var(--color-tron-green);
+            box-shadow: 0 0 8px var(--color-tron-green), 0 0 20px var(--color-tron-green);
+        }
+
+        @keyframes pulse-green {
+            from { box-shadow: 0 0 8px var(--color-tron-green); }
+            to { box-shadow: 0 0 15px var(--color-tron-green), 0 0 25px var(--color-tron-green); }
+        }
+
+        .placeholder-box {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px dashed rgba(0, 255, 128, 0.5);
+            padding: 40px;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #9999FF;
+            text-shadow: none;
+        }
+
+        .donation-link {
+            margin-top: 60px;
+        }
+
+        .donation-link a {
+            color: var(--color-tron-green);
+            border: 2px solid var(--color-tron-green);
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            box-shadow: 0 0 10px var(--color-tron-green);
+        }
+
+        .donation-link a:hover {
+            background-color: var(--color-tron-green);
+            color: var(--color-bg-dark);
+            box-shadow: 0 0 20px var(--color-tron-green);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>vector-syntax.com // Secure LLM Workflow Architecture</h1>
+
+        <p>The first platform to combine a high-assurance **SIEM/EDR** architecture with **NN Workflow Modeling**.</p>
+        <p>Our Odin, Hugin, and Munin security triad guarantees **data-in-memory** and **data-in-transit** safety while you model.</p>
+
+        <div class="status-container">
+            <div class="trust-level">
+                <span class="status-dot green"></span>
+                Security Status: **GREEN** (Operational / Data Trust Confirmed by Hugin)
+            </div>
+            <p>Monitors: LLM Workflow, Memory Operations, File Access, and API Calls.</p>
+        </div>
+
+        <div class="placeholder-box">
+            --- NN WORKFLOW MODELING UI ---<br>
+            *Coming Soon: Drag-and-drop flowcharting with real-time **Munin Memory Protection**.*<br>
+            *Your data stays private. **Hugin** guarantees non-exfiltration.*
+        </div>
+
+        <div class="donation-link">
+            <p>Help us launch the full Odin (SIEM/SOAR) orchestration layer and keep the Hugin privacy agent free!</p>
+            <a href="https://cash.app/$sleepingsilverback" target="_blank">
+                Donate for Coffee / Support Dev
+            </a>
+        </div>
+        
+    </div>
+</body>
+</html>
